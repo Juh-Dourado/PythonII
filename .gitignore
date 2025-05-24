@@ -1,0 +1,86 @@
+# Arquivos de Sistema Operacional e de Editor
+.DS_Store
+.localized
+.pytest_cache
+.vscode/
+
+# Ambientes Virtuais
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-code do Python
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Dados de Teste
+.coverage
+.tox/
+/htmlcov/
+
+# Logs e Dados Temporários
+*.log
+tmp/
+temp/
+media/
+staticfiles/
+
+# Bancos de Dados
+*.sqlite3
+db.sqlite3
+*.bak
+*.sql
+
+# Arquivos de Configuração de Segurança (NÃO DEVE SER VERSIONADO!)
+*.env
+.env.local
+.env.*.local
+settings_local.py
+local_settings.py
+secrets.py
+*.key
+*.pem
+*.crt
+
+# Ferramentas de Empacotamento/Distribuição
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Arquivos de Ferramentas de Desenvolvimento
+.mypy_cache/
+.ruff_cache/
+.black/
+.isort/
+.flake8
+.pylintrc
+.darglint
+
+# Django
+# Ignorar as pastas de media e staticfiles se você as estiver servindo localmente e não quiser que o Git as rastreie.
+# Caso contrário, remova as linhas abaixo.
+# media/
+# staticfiles/
+
+# Arquivos gerados por ferramentas como migrations do Django que podem ser ignorados
+# se você não quiser que o Git rastreie a saída de cada execução.
+# Mantenha-os se você precisar rastrear as migrações para deploy/colaboração.
+# apps/*/migrations/
+# Cada aplicação individual pode ter sua própria pasta de migrações.
+# Se você tiver um padrão específico, pode tentar ignorar arquivos específicos,
+# mas geralmente é melhor manter as migrações sob controle de versão.
+
+# Documentação
+docs/_build/
+
+# Outros
+*.sublime-project
+*.sublime-workspace
+.idea/ # Para usuários do PyCharm/IntelliJ
+.ipynb_checkpoints/ # Para notebooks Jupyter
