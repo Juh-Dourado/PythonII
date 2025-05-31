@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motoweb - Veículos</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+<body>
+  <header>
+    <h1>Motoweb</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="veiculos.html">Veículos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Nossos Veículos</h2>
+    <section class="veiculos">
+      <div class="veiculo">
+        <img src="imagens/moto2.jpg" alt="Moto modelo X" />
+        <h3>Moto Modelo X</h3>
+        <p>Descrição do modelo X.</p>
+      </div>
+      <div class="veiculo">
+        <img src="imagens/moto3.jpg" alt="Moto modelo Y" />
+        <h3>Moto Modelo Y</h3>
+        <p>Descrição do modelo Y.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Motoweb.</p>
+  </footer>
+  <script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>

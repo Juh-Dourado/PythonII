@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+.veiculos {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.veiculo {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
